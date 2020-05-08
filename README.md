@@ -14,7 +14,7 @@ Selenium WebDriver is an automation testing tool. When I say automation, it mean
     mkdir python-selnium-first-open-url
 	cd python-selnium-first-open-url
     ```
-  - Web Scraping installation:
+  - environment installation:
      ```
      open command prompt type 
         pip install virtualenv
@@ -23,8 +23,7 @@ Selenium WebDriver is an automation testing tool. When I say automation, it mean
      we need to activate virtualenv for use
     	>>selenium-setup\scripts\activate
      
-     need libraries for Web Scraping :
-     
+    
     pip install selenium
     ```
     While the installation of Selenium makes the functionality available to you, you need additional drivers for it to be able to interface with a chosen web browser. The download links for the drivers are available here: Chrome, Edge, Firefox and Safari. For the remainder of this tutorial, we will use the Chrome driver. Follow the link for the browser of your choice and download the driver for the compatible version.
